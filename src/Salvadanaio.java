@@ -31,18 +31,20 @@ public class Salvadanaio {
 
 /**
  * Metodo che inserisce una moneta di un determinato valore. L'attributo soldi verrà incrementato.
+ * Il synchronized consente l’esecuzione del codice ad un solo thread alla volta (MUTUA ESCLUSIONE) 
  * @param valoreMoneta valore della moneta che si introduce nel salvadanaio
  */
-    public void inserisciMoneta(float valoreMoneta){
+    public synchronized void inserisciMoneta(float valoreMoneta){
 
         this.soldi+=valoreMoneta;
     }
 
     /**
      * Metodo che preleva una moneta di un determinato valore. L'attributo soldi verrà decrementato.
+     * Il synchronized consente l’esecuzione del codice ad un solo thread alla volta (MUTUA ESCLUSIONE) 
      * @param valoreMoneta valore della moneta che si preleva dal salvadanaio
      */
-    public void prendiMoneta(float valoreMoneta){
+    public synchronized void prendiMoneta(float valoreMoneta){
 
         this.soldi-=valoreMoneta;
 

@@ -18,7 +18,7 @@ public class Persona extends Thread{
 @Override
     public void run(){
 
-        for (int i=1; i<3000; i++) {
+        for (int i=1; i<=3000; i++) {
          
             s.inserisciMoneta(1);
             

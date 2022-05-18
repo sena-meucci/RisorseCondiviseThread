@@ -3,6 +3,7 @@
  * Ogni Thread inserisce per TOT volte una moneta nel salvadanaio.
  * Al termine dell'esecuzione dei Thread viene stampato quanti soldi ci sono nel salvadanaio.
  * Purtroppo qualcosa non va! Cosa?
+ * PROBLEMA RISOLTO CON IL SYNCHRONIZED! --> MUTUA ESCLUSIONE
  * @author Giuseppe
  *  @version 1.0
  */
