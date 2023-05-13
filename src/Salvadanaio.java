@@ -33,7 +33,7 @@ public class Salvadanaio {
  * Metodo che inserisce una moneta di un determinato valore. L'attributo soldi verrà incrementato.
  * @param valoreMoneta valore della moneta che si introduce nel salvadanaio
  */
-    public void inserisciMoneta(float valoreMoneta){
+    public  void inserisciMoneta(float valoreMoneta){
 
         this.soldi+=valoreMoneta;
     }
@@ -43,7 +43,6 @@ public class Salvadanaio {
      * @param valoreMoneta valore della moneta che si preleva dal salvadanaio
      */
     public void prendiMoneta(float valoreMoneta){
-
         this.soldi-=valoreMoneta;
 
     }
